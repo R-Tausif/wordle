@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game-container {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    column-gap: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+.tile {
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey;
+}
+
+.keyboard {
+    /* what does auto do? */
+    margin: 20px auto; 
+}
+
+.key {
+    padding: 15px;
+    margin: 2px;  
+}
+
+.row-key {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+

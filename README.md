@@ -1,1 +1,3 @@
 # Wordle
+
+Welcome to Wordle!
